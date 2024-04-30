@@ -1,0 +1,55 @@
+$phone: 535px;
+
+.task_director {
+  display: flex;
+  gap: 29px;
+
+  padding-bottom: 20px;
+  padding-top: 20px;
+  p {
+    padding-top: 10px;
+    color: #5e6675;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.task_whitespace {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: white;
+  min-height: 23px;
+  border: none;
+  padding: 10px 62px 10px 10px;
+  .task_add_person {
+    background: #fff;
+    font-weight: 900;
+    font-size: 14px;
+    color: #1f6ab5;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+
+  #director {
+    border: none;
+
+    background: #bcedfc;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+
+    font-size: 14px;
+    color: #1f6ab5;
+  }
+  .close {
+    padding-left: 5px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: $phone) {
+  .task_director {
+    flex-direction: column;
+  }
+}

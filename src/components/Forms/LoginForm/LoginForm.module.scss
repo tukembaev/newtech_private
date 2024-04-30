@@ -1,0 +1,136 @@
+.login__title__label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2e2e2e;
+  opacity: 0.5;
+  margin: 8px 0;
+}
+
+.login__input {
+  width: 100%;
+  border: 1px solid #a8ccef;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+  padding: 8px 16px;
+  font-family: 'Montserrat', sans-serif;
+  &:focus-visible {
+    outline: none;
+  }
+}
+.sign__kstu__btn {
+  margin-left: 10px;
+  width: 25px;
+  margin: -5px 0px -5px 10px;
+  padding: 0px 0px 0px 0px;
+}
+.div_social {
+  display: flex;
+  gap: 10px;
+}
+.login__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #4b84f4;
+  margin-bottom: 16px;
+}
+.sign__google__btns {
+  color: #2e2e2e;
+  background-color: transparent;
+  text-transform: none;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  border: 1px solid #2e2e2e;
+  border-radius: 8px;
+  &:hover {
+    background-color: #4b84f4;
+    border: 1px solid #4b84f4;
+    color: #fff;
+  }
+  width: 100%;
+}
+.helper__title {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #2e2e2e;
+}
+
+.button__wrapper {
+  margin-top: 16px;
+}
+
+.button_mail {
+  display: flex;
+  gap: 70px;
+}
+
+.register_button {
+  align-items: center;
+  background-color: #02ff39;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  text-transform: none;
+  width: 100%;
+  padding: 10px;
+  &:hover {
+    background-color: #00cf2d;
+    border: 1px solid #fff;
+    color: #000;
+  }
+}
+
+.btn_pin {
+  margin-top: 13px;
+  width: 85px;
+  float: right;
+  margin-right: 10px;
+  background: #4b84f4;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: #6b9cfd;
+  }
+}
+.btn_pin_close {
+  margin-right: 12px;
+  margin-top: 13px;
+  background: rgb(177 0 0);
+
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(219, 32, 32, 0.781);
+  }
+}
+.size {
+  margin-left: 5px;
+  width: 25px;
+  height: 25px;
+}
+.container_pin {
+  text-align: center;
+}

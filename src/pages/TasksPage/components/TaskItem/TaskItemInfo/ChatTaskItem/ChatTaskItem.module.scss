@@ -1,0 +1,241 @@
+$table: 768px;
+$phone: 480px;
+
+.message_wrapper {
+  display: flex;
+}
+.avatar {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+.image__cover {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 10px;
+  object-fit: cover;
+}
+
+.message_right_wrapper {
+  position: relative;
+  padding: 7px 21px 7px 15px;
+  max-width: 820px;
+  min-width: 300px;
+  border-radius: 23px;
+  background-color: #edf1f3;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-top: 7px;
+}
+.message_left_wrapper {
+  position: relative;
+  padding: 7px 21px 7px 15px;
+  max-width: 820px;
+  min-width: 300px;
+  border-radius: 23px;
+  background-color: #edf1f3;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-top: 7px;
+}
+.message_wrapper {
+  max-height: 500px;
+  margin-bottom: 13px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 30px;
+  span {
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    &:hover {
+      transition: 0.2s;
+      border-radius: 6px;
+      background-color: #2fc7f8;
+    }
+    .plus {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+
+.message_wrapper::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.message_wrapper::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 6px;
+}
+
+/* Handle */
+.message_wrapper::-webkit-scrollbar-thumb {
+  background: rgba(5, 0, 0, 0.607);
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+.message_wrapper::-webkit-scrollbar-thumb:hover {
+  background: rgba(12, 0, 0, 0.941);
+}
+.flex_left {
+  display: flex;
+  gap: 20px;
+}
+.flex_right {
+  display: flex;
+  gap: 20px;
+  // flex-direction: row-reverse;
+}
+.single_message_left {
+  display: flex;
+  gap: 10px;
+}
+.single_message_right {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+.message_body_right {
+  p {
+    text-align: right;
+  }
+}
+.message_heading_right {
+  display: flex;
+  flex-direction: row-reverse;
+  img {
+    cursor: pointer;
+    filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5);
+    width: 18px;
+    &:hover {
+      filter: brightness(0) invert(1);
+    }
+  }
+}
+
+h5 {
+  img {
+    cursor: pointer;
+    filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5);
+    width: 18px;
+    &:hover {
+      filter: brightness(0) invert(1);
+    }
+  }
+}
+.message_left_wrapper {
+  max-width: 650px;
+  margin-left: 5px;
+  background: rgba(128, 117, 255, 0.76);
+  border-radius: 6px;
+}
+.message_right_wrapper {
+  max-width: 650px;
+  margin-right: 5px;
+  float: right;
+  /* background-color: #2fc7f8; */
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 6px;
+  color: #ffffff;
+}
+.write_message {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.input {
+  position: relative;
+  border: none;
+  border-radius: 6px;
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 0 0 18px;
+  width: 95%;
+  height: 39px;
+  color: #000000;
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 37px;
+  resize: none;
+  background: rgba(145, 145, 145, 0.18);
+
+  outline: none;
+}
+.input::placeholder {
+  color: black;
+}
+.formsong {
+  width: 100%;
+  display: flex;
+}
+.flex {
+  display: flex;
+  width: 100%;
+}
+// .btn2{
+//   display: none;
+// }
+.btn2 {
+  display: block;
+  height: 39px;
+  margin-top: 12px;
+  margin-left: 20px;
+  padding: 10px 15px 15px 15px;
+  border-radius: 6px;
+
+  font-family: 'Nunito', sans-serif;
+  color: #535b69;
+  background: #bbed21;
+  &:hover {
+    background: #d1f071;
+  }
+}
+
+.send {
+  width: 40px;
+  height: 40px;
+  margin-top: 11px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media screen and (max-width: $table) {
+  .flex {
+    display: flex;
+    width: 100%;
+  }
+}
+
+.btn1s {
+  border-radius: 6px;
+  width: 60px;
+  // border: 1px solid #c6cdd3;
+  font-family: 'Nunito', sans-serif;
+  color: #000000;
+  background: transparent;
+  height: 40px;
+  padding: 0px 0px 0px 5px;
+  zoom: 80%;
+  margin-left: -10px;
+  margin-right: -30px;
+  margin-top: 5px;
+  // margin-left: 10px;
+  // margin-right: 10px;
+  // margin-top: -65px;
+  float: right;
+  &:hover {
+    color: #d9ff00;
+    // background: #e70404;
+  }
+}

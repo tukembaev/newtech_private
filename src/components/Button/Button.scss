@@ -1,0 +1,187 @@
+.btn {
+  position: relative;
+  padding: 10px 15px;
+  background-color: #7cc6fe;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+}
+
+//WelcomePageButtons
+.get__tariff {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  color: black;
+  background-color: #fff;
+}
+.default__tariff {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  color: black;
+  background-color: #4b84f4;
+}
+
+.purple__welcome_btn {
+  font-family: Nunito, sans-serif;
+  border-radius: 4px;
+  border: none;
+  font-weight: 300;
+  color: white;
+  background-color: #736ced;
+}
+
+.auth__btn {
+  background: #4b84f4;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.btn_modal_access {
+  background: rgb(0 0 0 / 44%);
+
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.68);
+  }
+}
+.btn_modal_close {
+  margin-top: 15px;
+  margin-right: 15px;
+
+  background: rgba(219, 32, 32, 0.64);
+
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(219, 32, 32, 0.26);
+  }
+}
+
+.sign__google__btn {
+  margin-top: 16px;
+  color: #2e2e2e;
+  background-color: transparent;
+  text-transform: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  border: none;
+  border-radius: 6px;
+
+  &:hover {
+    background-color: #4b84f4;
+    border: none;
+    color: #fff;
+  }
+}
+
+.btn[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+// .btn.active {
+//   background-color: #23c9ff;
+//   border: 1px solid #5eb2f2;
+//   box-shadow: 0px 0 2px 0px #c0c0c0;
+// }
+
+.create__statement__btn {
+  background: #43444a;
+  border: none;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(44, 44, 44, 0.68);
+  }
+}
+
+.add__requir {
+  background-color: #bbed21;
+  color: #535c69;
+  text-transform: none;
+  font-weight: 300;
+  font-size: 14px;
+  border-radius: 3px;
+  transition: 0.3s;
+  margin-top: 5px;
+  &:hover {
+    background-color: #d2f95f;
+  }
+}
+
+.requirment__update {
+  background-color: #bbed21;
+  color: #535c69;
+  text-transform: none;
+  font-weight: 300;
+  font-size: 12px;
+  border-radius: 3px;
+  transition: 0.3s;
+  margin-top: 5px;
+  &:hover {
+    background-color: #d2f95f;
+  }
+}
+
+.act_update {
+  background-color: #bbed21;
+  color: #535c69;
+  text-transform: none;
+  font-weight: 300;
+  font-size: 12px;
+  border-radius: 3px;
+  transition: 0.3s;
+  margin-top: 5px;
+  &:hover {
+    background-color: #d2f95f;
+  }
+}
+
+.requirment__delete {
+  background-color: #ff5752;
+  color: #fff;
+  text-transform: none;
+  font-weight: 300;
+  font-size: 12px;
+  border-radius: 3px;
+  transition: 0.3s;
+  margin-top: 5px;
+  &:hover {
+    background-color: #f77672;
+  }
+}
+.confirm__requir {
+  background-color: rgb(2, 127, 230);
+  text-transform: none;
+  font-weight: 300;
+  font-size: 18px;
+  border-radius: 3px;
+  transition: 0.3s;
+  &:hover {
+    background-color: rgb(2, 80, 144);
+  }
+}

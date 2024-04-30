@@ -1,0 +1,51 @@
+.tariff_order_container {
+  background: #fbffff;
+  width: 100%;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 12px 0px rgba(20, 20, 43, 0.08);
+  border: 1px solid #eff0f6;
+}
+.tariff_order_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.tariff_order_icon_title {
+  display: flex;
+  gap: 10px;
+}
+.tariff_order_size {
+  width: 60px;
+}
+.tariff_order_user_features {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tariff_order_item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 10px;
+  img {
+    width: 15px;
+    height: 15px;
+  }
+}
+.btn_pin {
+  padding: 12px 16px;
+  border-radius: 18px;
+  color: white;
+  background: rgba(5, 5, 6, 1);
+  // cursor: pointer;
+  border: none;
+  transition: 0.3s;
+  min-width: 130px;
+  //     &:hover {
+  //         cursor: pointer;
+  //         background: rgba(0, 0, 0, 0.68);
+  // }
+}

@@ -1,0 +1,56 @@
+.statement_info_wrapper {
+  background-color: #fff;
+  border-radius: 6px;
+  max-width: 80%;
+}
+
+.statement_info_heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.right {
+  padding-top: 30px;
+}
+
+.statement_info_body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+}
+
+.statement_info_body h1 {
+  text-align: center;
+}
+.statement_info_discrip {
+  padding-left: 200px;
+}
+
+.statement_footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px 30px 0px;
+  .btn1 {
+    margin-left: 20px;
+    border-radius: 6px;
+
+    font-family: 'Nunito', sans-serif;
+    color: #535b69;
+    background: transparent;
+    &:hover {
+      background: #cfd4d8;
+    }
+  }
+}
+
+.btn2 {
+  border-radius: 6px;
+  font-family: 'Nunito', sans-serif;
+  color: #535b69;
+  background: #bbed21;
+  &:hover {
+    background: #d1f071;
+  }
+}

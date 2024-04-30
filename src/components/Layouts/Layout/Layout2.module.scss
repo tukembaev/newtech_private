@@ -1,0 +1,100 @@
+$mini-phone: 320px;
+$phone: 480px;
+$table: 768px;
+$netbook: 1024px;
+$smalldisplay: 1280px;
+$bigdisplay: 1920px;
+.layout__wrapper {
+  display: flex;
+  height: 100vh;
+  // background-image: url('../../../assets/img/air.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.layout__wrapper2 {
+  display: flex;
+  height: 100vh;
+  // background-image: url('../../../assets/img/air.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.sidebar__wrapper {
+  background: rgb(35 32 32 / 32%);
+  overflow-y: auto;
+}
+
+.body__wrapper {
+  position: relative;
+
+  flex-grow: 1;
+  overflow: auto;
+  padding-left: 60px;
+  // padding-right: 8px;
+}
+
+/* Track */
+.sidebar__wrapper::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 6px;
+}
+
+/* Handle */
+.sidebar__wrapper::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.607);
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+.sidebar__wrapper::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.941);
+}
+
+/* width */
+
+/* Track */
+.body__wrapper::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 6px;
+}
+
+/* Handle */
+.body__wrapper::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.607);
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+.body__wrapper::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.941);
+}
+.login {
+  margin: 0 auto;
+  display: flex;
+  gap: 15px;
+}
+
+@media screen and (max-width: 5000px) {
+  .layout__wrapper2 {
+    display: none;
+  }
+  .layout_small {
+    display: none;
+  }
+}
+
+@media screen and (max-width: $table) {
+  .layout__wrapper {
+    display: none;
+  }
+  .layout__wrapper2 {
+    flex-flow: column;
+    display: flex;
+  }
+  .body__wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

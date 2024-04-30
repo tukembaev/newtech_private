@@ -1,0 +1,81 @@
+.sliding_tariff_container {
+  color: black;
+}
+
+.tariff_cards {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+}
+.btn_pin {
+  padding: 12px 16px;
+  border-radius: 18px;
+  color: white;
+  background: #4a3aff;
+  cursor: pointer;
+  border: none;
+  &:hover {
+    background: #4a3aff5d;
+  }
+}
+
+.tariff_order_container {
+  background: #fbffff;
+  width: 100%;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 12px 0px rgba(20, 20, 43, 0.08);
+  border: 1px solid #eff0f6;
+}
+.tariff_order_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.tariff_order_icon_title {
+  display: flex;
+  gap: 10px;
+}
+.tariff_order_size {
+  width: 60px;
+}
+.tariff_order_user_features {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tariff_order_item {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  img {
+    width: 15px;
+    height: 15px;
+  }
+}
+.btn_pin {
+  padding: 12px 16px;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.44);
+  border: none;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
+
+  transition: 0.3s;
+  min-width: 130px;
+  &:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.68);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .tariff_cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

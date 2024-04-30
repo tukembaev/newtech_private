@@ -1,0 +1,13 @@
+.modal_wrapper {
+  background: rgb(255 255 255 / 90%);
+  backdrop-filter: blur(12.5px);
+  border-radius: 6px;
+  text-align: left;
+}
+.modal_title {
+  margin-top: -5px;
+  text-align: left;
+}
+.modal_text {
+  padding-left: 15px;
+}

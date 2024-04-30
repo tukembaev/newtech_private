@@ -1,0 +1,119 @@
+.structure_wrapper {
+  background: rgba(184, 184, 184, 0.43);
+  border-radius: 6px;
+  padding: 20px 20px 30px 20px;
+  margin: 0px 10px;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  h2 {
+    font-weight: 700;
+
+    line-height: 27px;
+    color: #ffffff;
+  }
+  button {
+    background: rgba(0, 255, 102, 0.76);
+    backdrop-filter: blur(5px);
+    font-weight: bold;
+    border-radius: 18px;
+    margin-bottom: 5px;
+  }
+}
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding-top: 20px;
+}
+.flex {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.structure_form {
+  padding: 20px;
+  background: #ffffff;
+  backdrop-filter: blur(5px);
+  border-radius: 18px;
+  width: 100%;
+}
+
+.title {
+  width: 250px;
+  min-height: 40px;
+  background: #ffffff;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+  padding: 10px 16px;
+  font-family: 'Nunito', sans-serif;
+  resize: none;
+  margin-bottom: 10px;
+}
+.card_field {
+  display: flex;
+  flex-direction: column;
+  img {
+    display: none;
+  }
+  &:nth-last-child(1) {
+    img {
+      display: block;
+    }
+  }
+}
+
+.btn_clear {
+  background-color: #ff5752;
+  color: #fff;
+  text-transform: none;
+  font-weight: 300;
+  font-size: 12px;
+  border-radius: 13px;
+  transition: 0.3s;
+  margin-top: 5px;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #f77672;
+  }
+}
+.btn_add_field {
+  background: #ffffff;
+
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+  max-width: 160px;
+  border-radius: 11px;
+
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.btn_save_structure {
+  background: rgb(0 0 0 / 44%);
+  border: none;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  padding: 10px;
+  margin-top: 20px;
+  &:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.68);
+  }
+  float: right;
+}

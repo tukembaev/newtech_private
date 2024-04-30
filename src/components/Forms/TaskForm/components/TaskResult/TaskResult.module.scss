@@ -1,0 +1,19 @@
+$phone: 535px;
+.task_result {
+  display: flex;
+  gap: 27px;
+
+  padding-bottom: 20px;
+  padding-top: 20px;
+  span {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    color: #5e6675;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: $phone) {
+  .task_result {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,330 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.Education {
+  width: 99%;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid #000000;
+
+  text-align: center;
+  position: relative;
+
+  transition: 0.5s ease-in-out;
+  padding: 10px;
+}
+
+.Education_true {
+  width: 99%;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  text-align: center;
+  position: relative;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.019), rgba(0, 0, 0, 0.013)),
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.201),
+      rgba(255, 255, 255, 0.201)
+    );
+  transition: 0.5s ease-in-out;
+  padding: 10px;
+}
+
+.EducationHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 36px;
+}
+.header_left {
+  display: flex;
+  padding-left: 20px;
+  width: 40%;
+  // justify-content: space-between;
+}
+
+.header_left_info {
+  color: black;
+  font-size: 24px;
+  // font-weight: 400;
+  // line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.header_left_img {
+  width: 30px;
+  height: 16px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+.headerRight_info {
+  width: 48px;
+  text-align: right;
+  text-decoration: underline;
+  color: black;
+  padding-right: 14px;
+  cursor: pointer;
+}
+
+.Education_desc {
+  width: 90%;
+  // height: 80%;
+  margin: auto;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  align-items: center;
+}
+
+.Education_list {
+  // width: 320px;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.Education_list_true {
+  width: 300px;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.Education_title {
+  display: block;
+  font-size: 18px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.Education_title_sec {
+  display: block;
+  font-size: 18px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 10px;
+}
+.header_text {
+  font-size: 19px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.Education_info {
+  width: 100%;
+  color: black;
+
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.Education_change_block {
+  width: 100%;
+  // margin: auto;
+  margin-top: 20px;
+  // margin-left: 50px;
+}
+
+.headerLeft {
+  width: 100%;
+  text-align: left;
+}
+
+.Education_info_change_inp {
+  border: none;
+  border-bottom: 1px gray solid;
+
+  width: 76%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  color: #000;
+  padding: 8px 16px;
+}
+.Education_info_change_inp:focus {
+  outline: none;
+}
+
+.Education_info_change_inp::placeholder {
+  color: black;
+}
+.change_btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+.change_btn_Cancel {
+  background: #43444a;
+  padding: 10px;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: black;
+  }
+}
+
+.change_btn_save {
+  background: #43444a;
+  padding: 10px;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  border: none;
+  margin-left: 15px;
+  cursor: pointer;
+  &:hover {
+    background-color: black;
+  }
+}
+
+.Education_change_header {
+  width: 90%;
+  // height: 80%;
+  margin: auto;
+  margin-left: 8%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+
+.Education_info_Header_inp {
+  width: 92%;
+  height: 35px;
+
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 4px 62px 4px 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: black;
+  font-size: 20px;
+}
+.Education_info_Header_inp:focus {
+  outline: none;
+}
+
+.change_btn_add {
+  background: #43444a;
+  padding: 10px;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  border: none;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.Education_desc_footer {
+  display: flex;
+  width: 40%;
+  margin-left: 8%;
+}
+
+.Education_info_footer {
+  font-size: 19px;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  margin-left: 30px;
+}
+
+.change_btn_download {
+  width: 200px;
+  height: 47px;
+  border-radius: 10px;
+  padding: 4px 25px;
+  border: none;
+  background: rgba(32, 115, 219, 1);
+  cursor: pointer;
+}
+
+.Education_desc_footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media all and (max-width: 870px) {
+}
+
+@media all and (max-width: 450px) {
+  .Education {
+    width: 100%;
+  }
+
+  .change_btn {
+    display: flex;
+  }
+
+  .change_btn_add {
+    width: 150px;
+    margin: 0;
+    font-size: 12px;
+  }
+  .change_btn_save {
+    width: 100px;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .change_btn_Cancel {
+    width: 100px;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 0;
+  }
+  .change_btn_download {
+    width: 150px;
+    margin: 0;
+    font-size: 14px;
+  }
+  .Education_title_sec {
+    font-size: 16px;
+    margin-left: 0;
+  }
+  .Education_title {
+    font-size: 16px;
+    margin-left: 0;
+  }
+  .header_left_info {
+    font-size: 16px;
+    margin-left: 0;
+  }
+}

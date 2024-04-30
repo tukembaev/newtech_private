@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: small;
+  .logo {
+    width: 85px;
+    height: 30px;
+  }
+}
+.navbar {
+  display: flex;
+  gap: 25px;
+  a{
+    color: black;
+    font-family: Raleway;
+    text-decoration: none;
+  }
+}

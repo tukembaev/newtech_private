@@ -1,0 +1,61 @@
+.qr_wrapper {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.qr_body {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.discription_input {
+  width: 30%;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  color: #000;
+  padding: 10px 16px;
+  margin: 10px 10px;
+  font-family: 'Nunito', sans-serif;
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.qr_footer {
+  padding: 15px 0px;
+
+  .btn1 {
+    background: rgba(22, 22, 22, 0.5);
+
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+    &:hover {
+      cursor: pointer;
+      color: #2067b0;
+    }
+  }
+  .btn2 {
+    margin-left: 20px;
+    border-radius: 6px;
+
+    font-family: 'Nunito', sans-serif;
+    color: #535b69;
+    background: transparent;
+    &:hover {
+      background: #cfd4d8;
+    }
+  }
+}

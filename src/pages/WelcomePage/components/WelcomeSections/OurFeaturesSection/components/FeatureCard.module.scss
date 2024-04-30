@@ -1,0 +1,16 @@
+.wrapper {
+  max-width: 430px;
+  display: flex;
+  gap: 20px;
+
+  img {
+    width: 45px;
+    height: 50px;
+    padding-top: 10px;
+  }
+}
+.right {
+  h3 {
+    padding: 10px 0;
+  }
+}

@@ -1,0 +1,21 @@
+.circle_wrapper {
+  width: 269px;
+}
+
+.circle {
+  width: 220px;
+  height: 220px;
+  line-height: 26px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  background: white;
+  margin-top: 25px;
+  margin-left: 34px;
+  border: 15px solid green;
+  h2 {
+    padding-top: 68px;
+    padding-left: 10px;
+  }
+}

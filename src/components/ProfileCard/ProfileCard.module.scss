@@ -1,0 +1,384 @@
+$mini-phone: 320px;
+$phone: 480px;
+$table: 768px;
+$netbook: 1024px;
+$smalldisplay: 1280px;
+
+.both_side {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 13px;
+}
+.left_side {
+  width: 40%;
+}
+.profile_flex {
+  display: flex;
+}
+.right_side {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.dot {
+  display: block;
+  margin-top: 8px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px lightgreen;
+  background-color: lightgreen;
+  margin-right: 6px;
+}
+.profile_status {
+  display: flex;
+  gap: 5px;
+  justify-content: right;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+.profile_left_avatar {
+  height: 350px;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.image__cover {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 20px;
+  object-fit: cover;
+}
+
+.avatar2 {
+  display: none;
+  margin: 0 auto;
+}
+.version {
+  color: #a3a9b1;
+  font-size: 14px;
+  text-align: right;
+  font-style: italic;
+}
+
+.contact_info {
+  margin-top: 50px;
+}
+.avatar {
+  display: flex;
+  width: 160px;
+  height: 160px;
+  background-color: #7b8691;
+  border-radius: 50%;
+
+  margin: 0 auto;
+  position: relative;
+  transition: border 1s ease-in;
+
+  .btn1 {
+    margin-left: 20px;
+    border-radius: 6px;
+
+    font-family: 'Nunito', sans-serif;
+    color: #535b69;
+    background: transparent;
+    &:hover {
+      background: #cfd4d8;
+      color: white;
+    }
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 4;
+  }
+}
+.avatar_img2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Пример затемненного цвета фона */
+  z-index: 9998;
+  cursor: pointer;
+  img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 4;
+  }
+}
+
+.profile_right_info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  padding: 0 25px;
+}
+
+.two_side_wrapper {
+  display: flex;
+}
+.avatar_img {
+  img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+  }
+}
+.info_heading {
+  text-align: center;
+
+  padding-left: 10px;
+  padding-top: 20px;
+
+  font-size: 18px;
+  color: #525c69;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info h2 {
+  border-bottom: 1px solid #afafaf;
+}
+
+.info span {
+  color: #a3a9b1;
+  font-size: 14px;
+  p {
+    font-size: 14px;
+  }
+}
+.info4 {
+  span {
+    color: #a3a9b1;
+    font-size: 14px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+.info5 {
+  padding-bottom: 18px;
+  span {
+    color: #a3a9b1;
+    font-size: 14px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+.profile_header {
+  padding-bottom: 10px;
+  img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 2%;
+    top: 3%;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.2);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+.profile_exit {
+  padding-bottom: 10px;
+  img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 2%;
+    top: 3%;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.2);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+.profile_right_about {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 0 25px;
+}
+.about {
+  padding-bottom: 50px;
+}
+.profile_right_interest {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 0 25px;
+  margin-bottom: 30px;
+}
+.interest {
+  padding-bottom: 50px;
+}
+
+.changePas {
+  cursor: pointer;
+}
+.btn2 {
+  margin-left: 20px;
+  background: rgb(0 0 0 / 44%);
+
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.68);
+  }
+}
+
+.info5_change {
+  padding-bottom: 10px;
+  color: #a3a9b1;
+  font-size: 14px;
+
+  display: flex;
+  gap: 15px;
+
+  justify-content: space-between;
+
+  p {
+    padding-top: 10px;
+    cursor: pointer;
+    border-bottom: 2px dotted grey;
+  }
+}
+.info6 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  color: #a3a9b1;
+  font-size: 14px;
+  span {
+    color: black;
+    padding-top: 7px;
+  }
+}
+
+.btn_pin {
+  margin-top: 15px;
+  background: #43444a;
+  border: none;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(44, 44, 44, 0.68);
+  }
+}
+.btn_pin_close {
+  margin-right: 15px;
+
+  background: rgba(219, 32, 32, 0.64);
+
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(219, 32, 32, 0.26);
+  }
+}
+
+.btn_pin_close_option {
+  width: 100%;
+  margin-top: 15px;
+
+  background: rgba(219, 32, 32, 0.64);
+
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(219, 32, 32, 0.26);
+  }
+}
+.container_pin {
+  text-align: center;
+}
+.password_change {
+  margin-left: 10px;
+
+  border-radius: 6px;
+  outline: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  color: #000;
+  padding: 5px 15px;
+  font-family: 'Nunito', sans-serif;
+  resize: none;
+}
+
+@media screen and (max-width: 768px) {
+  .both_side {
+    flex-direction: column;
+    max-width: 265px;
+  }
+  .info_heading {
+    padding-left: 43px;
+  }
+  .profile_right_info {
+    gap: 8px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .info6 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+    .password_change {
+      width: 60%;
+
+      margin: 0 auto;
+    }
+    .btn2 {
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+}

@@ -1,0 +1,161 @@
+.personal_wrapper {
+  background: #fff;
+  width: 80%;
+  padding: 10px;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 6px;
+}
+.btn1 {
+  background: #43444a;
+  padding: 15px;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  border: none;
+  &:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+  }
+}
+
+.btn2 {
+  width: 270px;
+  background: #43444a;
+  padding: 15px;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  border: none;
+  &:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+  }
+}
+.header_body {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  align-items: center;
+
+  .personal_info {
+    display: flex;
+    gap: 15px;
+  }
+  .personal_info_user {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+
+  justify-content: center;
+
+  padding: 25px;
+  .btn1 {
+    width: 280px;
+  }
+}
+
+.bod1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+
+  padding: 25px;
+  .btn1 {
+    width: 280px;
+  }
+}
+
+@media all and (max-width: 870px) {
+  .personal_wrapper {
+    width: 99%;
+  }
+  .Personal {
+    margin-top: 6%;
+  }
+  .header_body {
+    flex-direction: column;
+  }
+  .Personal_true {
+    margin-left: 13%;
+    margin-top: 6%;
+  }
+  .block_list {
+    width: 80%;
+    font-size: 17px;
+  }
+  .Personal_info {
+    padding-top: 100px;
+    margin-left: 10%;
+  }
+  .block_desc {
+    margin-top: 50px;
+    margin-left: 10%;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .bod1 {
+    padding: 0;
+  }
+  .Personal {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .PersonalHeader {
+    display: block;
+  }
+  .change_btn_add {
+    margin-left: 0;
+  }
+  .change_btn {
+    display: block;
+  }
+  .change_btn_save {
+    width: 200px;
+    margin-top: 10px;
+  }
+  .Personal_desc_footer {
+    margin-left: 0;
+  }
+  .Personal_info_change_inp {
+    width: 130px;
+  }
+  .block_list {
+    margin-left: 0;
+    padding-left: 10px;
+  }
+  .block_desc {
+    padding-left: 0;
+  }
+  .body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .btn2 {
+    width: 200px;
+  }
+}

@@ -1,0 +1,62 @@
+.wrapper {
+  border-radius: 6px;
+  background-color: #fff;
+  min-height: 700px;
+  max-height: 710px;
+  overflow: auto;
+}
+.wrapper::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.wrapper::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(255, 255, 255);
+  border-radius: 6px;
+}
+
+/* Handle */
+.wrapper::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.607);
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+.wrapper::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.607);
+}
+.menu__wrapper {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.titile__wrapper {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.title {
+  padding: 20px;
+  color: black;
+  font-size: 22px;
+  font-weight: 300;
+  margin-right: 20px;
+  border: none;
+  background: transparent;
+
+  font-family: 'Nunito', sans-serif;
+  option {
+    color: black;
+  }
+}
+.some_custom_class2 {
+  background-image: url('../../assets/img/air.jpg') !important;
+  transition: all 0.5s ease-in-out !important;
+}
+.some_custom_overlay_class2 {
+  transition: all 1s ease-in-out !important;
+}

@@ -1,0 +1,53 @@
+.structure_wrapper {
+  background: rgba(184, 184, 184, 0.43);
+  border-radius: 6px;
+  padding: 20px 20px 30px 20px;
+  margin: 0px 10px;
+  height: 90vh;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  h2 {
+    font-weight: 700;
+
+    line-height: 27px;
+    color: #ffffff;
+  }
+  button {
+    background: rgba(0, 255, 102, 0.76);
+    backdrop-filter: blur(5px);
+    font-weight: bold;
+    border-radius: 18px;
+    margin-bottom: 5px;
+  }
+}
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding-top: 20px;
+}
+.flex {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.structure_card {
+  padding: 10px;
+  background: #ffffff;
+  backdrop-filter: blur(5px);
+  border-radius: 18px;
+}
+.btn_add_structure {
+  background: #2fc7f7;
+  backdrop-filter: blur(5px);
+  font-weight: 600;
+  border-radius: 18px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 5px;
+}

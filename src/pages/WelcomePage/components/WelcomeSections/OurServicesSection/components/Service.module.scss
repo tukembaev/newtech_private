@@ -1,0 +1,24 @@
+.wrapper {
+  padding: 25px 30px;
+  max-width: 355px;
+  border: 1px solid #eaeaeb;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  img {
+    width: 55px;
+    height: 55px;
+  }
+}
+@media (max-width: 940px) {
+  .wrapper {
+    max-width: none;
+  }
+}
+
+/* Адаптивность */
+@media (max-width: 780px) {
+}
+
+@media (max-width: 500px) {
+}

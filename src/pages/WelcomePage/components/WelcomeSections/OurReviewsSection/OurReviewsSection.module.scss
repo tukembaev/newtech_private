@@ -1,0 +1,30 @@
+.section {
+  scroll-behavior: smooth;
+}
+.reviewer {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.top {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 25px;
+  p {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 940px) {
+  .reviewer {
+    flex-wrap: wrap;
+  }
+}
+
+/* Адаптивность */
+@media (max-width: 780px) {
+}
+
+@media (max-width: 500px) {
+}

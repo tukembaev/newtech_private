@@ -1,0 +1,55 @@
+$phone: 535px;
+.inline {
+}
+.task_watchers {
+  border-bottom: 1px solid #e6e9ec;
+
+  p {
+    padding-bottom: 10px;
+    color: #000000;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.task_whitespace {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: white;
+  min-height: 23px;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  .task_add_person {
+    background: #fff;
+    font-weight: 900;
+    font-size: 14px;
+    color: #1f6ab5;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+
+  #watchers {
+    border: none;
+
+    background: #bcedfc;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+
+    font-size: 14px;
+    color: #1f6ab5;
+  }
+  .close {
+    padding-left: 5px;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: $phone) {
+  .task_watchers {
+    flex-direction: column;
+    p {
+      text-align: center;
+    }
+  }
+}

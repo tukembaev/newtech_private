@@ -1,0 +1,188 @@
+$table: 768px;
+
+.task_wrapper {
+  border-radius: 6px;
+
+  margin-bottom: 20px;
+}
+.file_padding_left {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.title_input {
+  background: rgb(255 255 255 / 75%);
+  border: none;
+  border-radius: 5px;
+  width: 76%;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  color: #000;
+  padding: 8px 16px;
+  font-family: 'Nunito', sans-serif;
+  &:focus-visible {
+    outline: none;
+  }
+}
+.task_heading_top {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.task_heading_right {
+  padding-top: 8px;
+  span {
+    font-size: 13px;
+    color: #fff;
+    margin-top: 3px;
+  }
+}
+.title_input_check {
+  width: 15px;
+  height: 20px;
+  padding-left: 20px;
+}
+
+.discription_input {
+  width: 100%;
+  height: 200px;
+  margin-top: 5px;
+
+  background: rgb(255 255 255 / 75%);
+  border: none;
+
+  resize: none;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  color: #000;
+  padding: 10px 16px;
+  font-family: 'Nunito', sans-serif;
+  &:focus-visible {
+    outline: none;
+  }
+}
+.add_task_file {
+  border: none;
+  background: #fff;
+  img {
+    width: 14px;
+    height: 16px;
+    margin-right: 5px;
+    margin-bottom: -3px;
+  }
+  span {
+    font-size: 11px;
+    color: #515e68;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+.task_options {
+  padding-bottom: 50px;
+  width: 100%;
+
+  background: rgb(255 255 255 / 75%);
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px 30px 30px;
+}
+.checkbox {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.btn1 {
+  background: rgb(0 0 0 / 44%);
+
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgb(0 0 0 / 68%);
+  }
+}
+.size {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.5);
+    transition: all 0.3s ease-in-out;
+  }
+}
+.task_footer {
+  padding: 15px 0px;
+  display: flex;
+  gap: 15px;
+  .btn1 {
+    background: rgb(0 0 0 / 44%);
+
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+    &:hover {
+      cursor: pointer;
+      background: rgb(0 0 0 / 68%);
+    }
+  }
+  .btn2 {
+    border-radius: 6px;
+
+    font-family: 'Nunito', sans-serif;
+    color: #535b69;
+    background: transparent;
+    &:hover {
+      background: #cfd4d8;
+    }
+  }
+}
+.added_raport {
+  img {
+    width: 14px;
+    height: 16px;
+    margin-right: 5px;
+    margin-bottom: -3px;
+  }
+}
+.add_task_span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #515e68;
+  font-family: 'Montserrat', sans-serif;
+}
+@media screen and (max-width: $table) {
+  .add_task_file {
+    display: none;
+  }
+
+  .title_input {
+    width: 100%;
+  }
+}
+
+.task_resourses {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+.task_number {
+  background: white;
+  max-width: 120px;
+}

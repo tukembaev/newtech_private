@@ -1,0 +1,329 @@
+.planner-wrapper {
+  background: #fff;
+  border: none;
+
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 6px;
+  display: block;
+}
+.planner-container {
+  width: 100%;
+}
+.flex {
+  padding: 20px;
+  display: flex;
+  gap: 25px;
+}
+.planner-heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+.report_dates_wrapper {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+}
+.date_for_report {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.add-event {
+  background: rgb(0 0 0 / 44%);
+
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgb(0 0 0 / 68%);
+  }
+}
+
+.planner-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.planner-input {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.planner-button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.planner-button:hover {
+  background-color: #45a049;
+}
+
+.planner-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.planner-table th,
+.planner-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.planner-delete {
+  padding: 4px 8px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.planner-delete:hover {
+  background-color: #d32f2f;
+}
+
+.planner-calendar {
+  height: 700px !important;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.planner-calendar .rbc-calendar {
+  border: none;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.planner-calendar .rbc-header {
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+
+.planner-calendar .rbc-header + .rbc-header {
+  border-left: none;
+}
+
+.planner-calendar .rbc-header a {
+  color: #333;
+  text-decoration: none;
+}
+
+.planner-calendar .rbc-header a:hover {
+  text-decoration: underline;
+}
+
+.planner-calendar .rbc-agenda-view table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.planner-calendar .rbc-agenda-view th,
+.planner-calendar .rbc-agenda-view td {
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ddd;
+}
+
+.planner-calendar .rbc-agenda-view .rbc-agenda-time-cell {
+  width: 15%;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  white-space: nowrap;
+}
+
+.planner-calendar .rbc-agenda-view .rbc-agenda-event-cell {
+  width: 85%;
+}
+
+.planner-calendar .rbc-agenda-view .rbc-agenda-content {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.planner-calendar .rbc-agenda-view .rbc-agenda-date-cell {
+  display: none;
+}
+
+.planner-calendar .rbc-agenda-view .rbc-agenda-event-cell div {
+  margin-right: 10px;
+}
+
+.planner-calendar .rbc-agenda-view .rbc-agenda-event-cell a {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+.planner-calendar .rbc-agenda-view .rbc-agenda-event-cell a:hover {
+  text-decoration: underline;
+}
+
+.decline_form {
+  border-radius: 6px;
+
+  .item_flex {
+    display: flex;
+    gap: 20px;
+  }
+
+  .discription_input {
+    background: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    color: #000;
+    padding: 10px 16px;
+    font-family: 'Nunito', sans-serif;
+    resize: none;
+  }
+}
+.input_type3 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.btn_pin {
+  margin-top: 15px;
+  background: #43444a;
+  border: none;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(44, 44, 44, 0.68);
+  }
+}
+.btn_pin_close {
+  margin-top: 15px;
+
+  background: rgba(219, 32, 32, 0.64);
+
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(219, 32, 32, 0.26);
+  }
+}
+
+.event-details {
+  background-color: white;
+  padding: 15px;
+  border-radius: 6px;
+}
+.event-details-close {
+  background: rgba(0, 0, 0, 0.44);
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  border: none;
+  padding: 10px 25px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.title {
+  color: black;
+  font-size: 22px;
+  font-weight: 300;
+  margin-right: 20px;
+  border: none;
+  background: transparent;
+  font-family: 'Nunito', sans-serif;
+  option {
+    color: black;
+  }
+}
+.planner__buttons {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.planner__btn {
+  background: rgb(0 0 0 / 44%);
+  padding: 10px 20px;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  border: none;
+  &:hover {
+    cursor: pointer;
+    background: rgb(0 0 0 / 68%);
+  }
+}
+.warn__message {
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 15px;
+  background: rgb(212, 181, 4);
+}
+
+@media screen and (max-width: 1200px) {
+  .flex {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 800px) {
+  .date_for_report {
+    width: 45%;
+  }
+}
+
+// @media screen and (max-width: 740px) {
+//   .planner-heading {
+//     flex-direction: column;
+//   }
+// }
+
+@media screen and (max-width: 600px) {
+  .report_dates_wrapper {
+    gap: 10px;
+    flex-direction: column;
+  }
+  .date_for_report {
+    width: 100%;
+  }
+  .discription_input {
+    max-width: unset;
+  }
+}

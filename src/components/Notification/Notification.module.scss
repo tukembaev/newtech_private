@@ -1,0 +1,137 @@
+.both_side {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+.left_side {
+  width: 40%;
+}
+.right_side {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.dot {
+  display: block;
+  margin-top: 8px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px lightgreen;
+  background-color: lightgreen;
+  margin-right: 6px;
+}
+.profile_status {
+  display: flex;
+  gap: 5px;
+  justify-content: right;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+.profile_left_avatar {
+  height: 300px;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.avatar {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-color: #7b8691;
+  border-radius: 50%;
+  margin-left: 27%;
+  margin-top: 10%;
+  position: relative;
+  transition: border 1s ease-in;
+
+  &:hover {
+    border: 2px solid #0aaff1;
+    cursor: pointer;
+    .download {
+      padding-top: 10px;
+      height: 40px;
+    }
+  }
+
+  .avatar-img,
+  .download {
+    position: absolute;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 4;
+  }
+
+  .download {
+    width: 100%;
+    height: 0px;
+    z-index: 1;
+    bottom: 0;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(10, 175, 241, 0.781);
+    transition: all 1s;
+    padding-top: 0px;
+    text-align: center;
+  }
+}
+
+.profile_right_info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #f9fafb;
+  border-radius: 6px;
+  padding: 0 25px;
+}
+.info_heading {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e8ecee;
+  font-size: 18px;
+  color: #525c69;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info span {
+  color: #a3a9b1;
+  font-size: 14px;
+}
+.info4 {
+  padding-bottom: 18px;
+  span {
+    color: #a3a9b1;
+    font-size: 14px;
+  }
+}
+.profile_right_about {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 0 25px;
+}
+.about {
+  padding-bottom: 50px;
+}
+.profile_right_interest {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 0 25px;
+  margin-bottom: 30px;
+}
+.interest {
+  padding-bottom: 50px;
+}

@@ -1,0 +1,232 @@
+$mini-phone: 320px;
+$phone: 480px;
+$table: 768px;
+$netbook: 1024px;
+$smalldisplay: 1280px;
+
+.team__wrapper {
+  margin-bottom: 20px;
+  border-radius: 6px;
+  background-color: #f6f8f9;
+  gap: 10px;
+}
+.team__wrapper::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.team__wrapper::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(255, 255, 255);
+  border-radius: 6px;
+}
+
+/* Handle */
+.team__wrapper::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.607);
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+.team__wrapper::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.607);
+}
+.admin {
+  margin-left: 15px;
+  padding: 2px 14px;
+  background: rgba(72, 206, 143, 0.73);
+  color: rgb(21, 131, 24);
+  border-radius: 16px;
+  font-size: 14px;
+}
+.title {
+  color: #6e7c87;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 10px;
+}
+.team__header {
+  position: relative;
+  padding: 10px;
+  background-color: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom: 1px solid #eaecf0;
+}
+.team__body {
+  overflow-x: auto;
+}
+.member_add_header {
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  button {
+    background: rgb(0 0 0 / 44%);
+    border: none;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+    min-width: 100px;
+    padding: 10px 15px;
+    &:hover {
+      cursor: pointer;
+      background: rgba(0, 0, 0, 0.68);
+    }
+  }
+}
+.waiting_members_title {
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  button {
+    background: rgb(0 0 0 / 44%);
+    border: none;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+    min-width: 100px;
+    padding: 4px 10px;
+    &:hover {
+      cursor: pointer;
+      background: rgba(0, 0, 0, 0.68);
+    }
+  }
+}
+
+.table__wrapper {
+  border-radius: 6px;
+  width: 100%;
+  border-spacing: 0;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  backdrop-filter: blur(10px);
+
+  thead th span {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.table__head .table__item {
+  text-align: left;
+  padding: 16px 24px 16px 24px;
+}
+.table__head .table__row {
+  background-color: #f6f8f9;
+}
+.size {
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+  }
+}
+.table__body .table__item {
+  text-align: left;
+  padding: 16px 24px 16px 24px;
+  font-size: 16px;
+  min-width: 300px;
+  word-wrap: break-word;
+}
+
+.table__body .table__row {
+  border-bottom: 1px solid #eaecf0;
+  border-top: 1px solid #eaecf0;
+}
+.table__body tr:hover {
+  color: black;
+  font-weight: 400;
+  transition: 0.3s;
+  background-color: #f6f8f9;
+}
+
+.table__body tr {
+  td {
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid #eaecf0;
+  }
+}
+.table__body tr:first-child {
+  td {
+    border-top: unset;
+  }
+}
+.table__body tr:last-child {
+  border-bottom-left-radius: 6px;
+  td {
+    border-top: 1px solid #eaecf0;
+  }
+}
+.table__title {
+  color: #000000;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.titile__wrapper {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.size {
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media screen and (max-width: $phone) {
+  .table__title {
+    font-size: 11px;
+  }
+}
+
+.btn_pin_close {
+  margin-top: 15px;
+  margin-right: 15px;
+
+  background: rgba(219, 32, 32, 0.64);
+
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(219, 32, 32, 0.26);
+  }
+}
+.btn_pin {
+  margin-top: 15px;
+  background: #43444a;
+  border: none;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(44, 44, 44, 0.68);
+  }
+}

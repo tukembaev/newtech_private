@@ -1,0 +1,129 @@
+.wrapper {
+  flex-basis: 25%;
+}
+.showMore {
+  cursor: pointer;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  padding: 5px 30px 5px 12px;
+  background: rgba(152, 152, 152, 0.5);
+  border-radius: 6px;
+  margin: 0px 5px 15px 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 1200;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  :hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+}
+
+.overdue,
+.today,
+.week,
+.mounth,
+.longrange,
+.no__deadline {
+  line-height: 32px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #000;
+  padding: 0 18px 0 12px;
+  border-radius: 3px;
+}
+
+.today,
+.week,
+.mounth,
+.longrange,
+.no__deadline {
+  margin-left: 5px;
+}
+
+.overdue {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: #fff;
+  font-size: 15px;
+  min-width: 265px;
+  margin: 0 auto;
+}
+.today {
+  color: #fff;
+  background-color: rgba(0, 255, 37, 0.5);
+  font-size: 15px;
+  min-width: 265px;
+}
+.week {
+  color: #fff;
+  background-color: rgba(0, 203, 255, 0.5);
+  font-size: 15px;
+  min-width: 265px;
+}
+.mounth {
+  color: #fff;
+  background-color: rgba(255, 184, 29, 0.5);
+  font-size: 15px;
+  min-width: 265px;
+}
+.longrange {
+  color: #fff;
+  background-color: rgba(255, 0, 246, 0.5);
+  font-size: 15px;
+  min-width: 265px;
+}
+.no__deadline {
+  color: #fff;
+  background-color: rgba(194, 194, 194, 0.5);
+  font-size: 15px;
+  min-width: 265px;
+}
+
+.termBlock {
+  border: none;
+  border-top: none;
+  border-bottom: none;
+  max-height: 700px;
+  padding: 0 0 10px 0;
+  overflow-y: auto;
+}
+.today__item,
+.week__item,
+.no__deadline__item {
+  border-left: none;
+}
+
+@media screen and (max-width: 1075px) {
+  .wrapper {
+    flex-basis: 25%;
+    width: 100%;
+  }
+  .termBlock {
+    border: none;
+    border-top: none;
+    border-bottom: none;
+  }
+  .overdue {
+    margin-bottom: 10px;
+  }
+  .today {
+    margin-bottom: 10px;
+  }
+  .week {
+    margin-bottom: 10px;
+  }
+  .mounth {
+    margin-bottom: 10px;
+  }
+  .longrange {
+    margin-bottom: 10px;
+  }
+  .no__deadline {
+    margin-bottom: 10px;
+  }
+}

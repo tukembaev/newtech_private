@@ -1,0 +1,27 @@
+.last_action_card_wrapper {
+  background-color: white;
+  border-radius: 6px;
+
+  padding: 12px;
+  margin-top: 28px;
+}
+
+.action {
+  display: flex;
+  padding-top: 20px;
+  gap: 15px;
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+}
+
+.action_card {
+  display: flex;
+
+  gap: 40px;
+  border-bottom: 1px solid black;
+}

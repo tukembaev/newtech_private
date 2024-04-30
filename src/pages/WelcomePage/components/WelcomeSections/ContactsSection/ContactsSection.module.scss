@@ -1,0 +1,33 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  scroll-behavior: smooth;
+}
+.top {
+  text-align: center;
+  margin: 0 auto;
+  h2 {
+    padding-bottom: 10px;
+  }
+}
+.bottom {
+  display: flex;
+  gap: 100px;
+  font-family: Nunito;
+  justify-content: center;
+}
+@media (max-width: 940px) {
+  .reviewer {
+    flex-direction: column;
+  }
+}
+
+/* Адаптивность */
+@media (max-width: 750px) {
+  .bottom {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}

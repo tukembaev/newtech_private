@@ -1,0 +1,25 @@
+.section {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+  scroll-behavior: smooth;
+}
+
+.right_side {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+@media (max-width: 940px) {
+  .section {
+    flex-direction: column;
+  }
+}
+
+/* Адаптивность */
+@media (max-width: 780px) {
+}
+
+@media (max-width: 500px) {
+}

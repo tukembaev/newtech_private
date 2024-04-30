@@ -1,0 +1,23 @@
+.counstry_select {
+  align-self: flex-start;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.514);
+  border-radius: 6px;
+  outline: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  color: #000;
+  padding: 10px 16px;
+
+  resize: none;
+  font-family: 'Nunito', sans-serif;
+  &:focus-visible {
+    outline: none;
+  }
+}
+.country_item {
+  padding: 10px;
+  width: inherit;
+}

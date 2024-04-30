@@ -1,0 +1,49 @@
+$mini-phone: 320px;
+$phone: 480px;
+$table: 768px;
+$netbook: 1024px;
+$smalldisplay: 1280px;
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0 50px 0 25px;
+  border-radius: 6px;
+}
+.list__wrapper {
+  display: flex;
+}
+
+.list__item {
+  padding: 20px 0;
+  margin-right: 15px;
+
+  cursor: pointer;
+}
+
+.list__link {
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.raports {
+  border-left: 1px rgba(82, 92, 105, 0.35) solid;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: $phone) {
+  .list__link {
+    font-size: 11px;
+  }
+  .list__item {
+    padding: 20px 0;
+  }
+  .wrapper {
+    padding: 0 50px 0 15px;
+  }
+}

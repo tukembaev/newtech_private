@@ -1,0 +1,335 @@
+$mini-phone: 320px;
+$phone: 480px;
+$table: 768px;
+$netbook: 1024px;
+$smalldisplay: 1280px;
+
+.profile_wrapper {
+  display: block;
+  width: 400px;
+  border-radius: 15px;
+  padding: 13px;
+  background: rgba(247, 248, 249, 0.88);
+  backdrop-filter: blur(20px);
+}
+
+.personal_info {
+  background: #fff;
+  transform: translateY(0);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+
+  padding: 13px 14px;
+  cursor: pointer;
+  margin-bottom: 12px;
+  transition: transform 0.3s;
+  &:hover {
+    box-shadow: 1px 5px 3px 1px rgba(0, 0, 0, 0.09);
+    transform: translateY(-1px);
+  }
+}
+.user_avatar {
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+}
+
+.user_avatar_img {
+  width: 45px;
+  height: 45px;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 50%;
+  background: var(--blue_dark) center no-repeat;
+  transition: border 1s ease-in;
+}
+
+.user_online {
+  display: flex;
+  width: 70px;
+  background: none;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+  border-radius: 6px;
+  color: #77b715;
+}
+
+.wallpaper_block {
+  background: rgba(247, 248, 249, 0.88);
+  transform: translateY(0);
+
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  transition: 0.2s;
+  margin-bottom: 24px;
+}
+
+.change_wallpaper {
+  display: flex;
+  background: #fff;
+  flex-direction: column;
+  row-gap: 7px;
+  height: 65px;
+  width: 48%;
+  align-items: center;
+  border-radius: 15px;
+  padding: 10px 14px 10px 10px;
+
+  &:hover {
+    box-shadow: 2px 5px 3px 1px rgba(0, 0, 0, 0.09);
+    transform: translateY(-1px);
+  }
+}
+
+.btn_change {
+  font-size: 12px;
+  padding: 3px 12px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  border-color: rgba(31, 130, 232, 0.6);
+  color: var(--ui-color-text-secondary);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  &:hover {
+    box-shadow: 2px 5px 3px 1px rgba(0, 0, 0, 0.09);
+    transform: translateY(-1px);
+  }
+}
+
+.Efficiency {
+  background: #fff;
+  transform: translateY(0);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  align-items: center;
+  padding: 10px 11px;
+  cursor: pointer;
+  margin-bottom: 12px;
+  transition: transform 0.3s;
+  &:hover {
+    box-shadow: 1px 5px 3px 1px rgba(0, 0, 0, 0.09);
+    transform: translateY(-1px);
+  }
+}
+
+.PersonalInfo {
+  background: #fff;
+  transform: translateY(0);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  padding: 13px 14px;
+  flex-wrap: wrap;
+  cursor: pointer;
+  align-items: center;
+  margin-bottom: 12px;
+  transition: transform 0.3s;
+  &:hover {
+    box-shadow: 1px 5px 3px 1px rgba(0, 0, 0, 0.09);
+    transform: translateY(-1px);
+  }
+}
+
+.logout {
+  background: #fff;
+  transform: translateY(0);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  width: 49%;
+  align-items: center;
+  padding: 13px 14px;
+  flex-wrap: wrap;
+  cursor: pointer;
+  margin-bottom: 12px;
+  transition: transform 0.3s;
+  &:hover {
+    box-shadow: 1px 5px 3px 1px rgba(0, 0, 0, 0.09);
+    transform: translateY(-1px);
+  }
+}
+
+.avatar_img2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Пример затемненного цвета фона */
+  z-index: 9998;
+  cursor: pointer;
+  img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 4;
+  }
+}
+
+.btn2 {
+  background: none;
+  color: black;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+.custom_file_upload {
+  border: 2px solid #ccc;
+  display: inline-block;
+  padding: 4px 8px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  color: #333;
+  border-radius: 4px;
+}
+
+.custom_file_upload:hover {
+  background-color: #eee;
+}
+
+.selected-file {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.single_pie {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  align-items: center;
+}
+.pie_size {
+  height: 47px;
+}
+.pie_chats_col {
+  display: flex;
+  flex-direction: column;
+}
+.red_square {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #18af55;
+  margin-top: 6px;
+}
+.yellow_square {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #ffb03a;
+  margin-top: 6px;
+}
+.footer_card_btns {
+  display: flex;
+  justify-content: space-between;
+}
+.password_change {
+  // margin-left: 10px;
+  width: 70%;
+  border-radius: 6px;
+  outline: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #000;
+  padding: 5px 15px;
+  font-family: 'Nunito', sans-serif;
+  resize: none;
+  border: none;
+}
+
+.btn_pin {
+  margin-top: 15px;
+  background: #43444a;
+
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(44, 44, 44, 0.68);
+  }
+}
+.btn_pin_close {
+  margin-top: 15px;
+
+  background: rgb(177 0 0);
+
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(219, 32, 32, 0.781);
+  }
+}
+
+#foto_profile {
+  row-gap: 3px;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footer_card_btns {
+    display: flex;
+    flex-direction: column;
+  }
+  .logout {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .profile_wrapper {
+    width: 350px;
+  }
+  .change_wallpaper {
+    height: 90px;
+  }
+  #foto_profile {
+    row-gap: 12px;
+  }
+  #btnId {
+    margin-top: 10px;
+    margin-left: 106.75px;
+  }
+}

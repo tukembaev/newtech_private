@@ -1,0 +1,30 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+}
+.top {
+  text-align: center;
+  p {
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+}
+
+.adventages {
+  display: flex;
+  gap: 25px;
+}
+@media (max-width: 940px) {
+  .adventages {
+    flex-direction: column;
+  }
+}
+
+/* Адаптивность */
+@media (max-width: 780px) {
+}
+
+@media (max-width: 500px) {
+}

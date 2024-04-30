@@ -1,0 +1,84 @@
+.button {
+  font-family: 'Nunito';
+  font-weight: 800;
+  position: relative;
+  width: 250px;
+  border-radius: 15px;
+
+  background: white;
+  color: black;
+
+  & > span {
+    flex-flow: column;
+  }
+  & > p {
+    padding-left: 155px;
+  }
+  &:hover {
+    background: white;
+  }
+  // & > p:first-of-type {
+  //   display: none;
+  // }
+}
+
+.name {
+  font-size: 12px;
+  border-bottom: 1px solid black;
+}
+
+.name_emp {
+  font-size: 12px;
+}
+
+.edit {
+  position: absolute;
+  font-size: 12px;
+  top: 5px;
+  right: 15px;
+  color: #4ba083;
+}
+
+.attributes {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+
+.statusTextCompleted {
+  display: inline-block;
+  color: #131212;
+  background: green;
+  padding: 0 8px 0px 8px;
+  font-size: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 9px;
+  border: 1px solid #e4e1e1;
+}
+
+.statusTextPending {
+  display: inline-block;
+  color: #131212;
+  background: orange;
+  padding: 0 8px 0px 8px;
+  font-size: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 9px;
+  border: 1px solid #e4e1e1;
+}
+
+.statusText {
+  display: inline-block;
+  color: #131212;
+  padding: 0 8px 0px 8px;
+  font-size: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.open {
+  padding-left: 155px;
+  color: green;
+}

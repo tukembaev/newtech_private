@@ -1,0 +1,24 @@
+.wrapper {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 19px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  max-width: 310px;
+}
+.star {
+  width: 70px;
+}
+.reviewer {
+  display: flex;
+  gap: 10px;
+  img {
+    width: 30px;
+  }
+}
+@media (max-width: 940px) {
+  .wrapper {
+    max-width: none;
+  }
+}

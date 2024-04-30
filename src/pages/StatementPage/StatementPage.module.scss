@@ -1,0 +1,95 @@
+.wrapper {
+  border-radius: 6px;
+  background-color: #fff;
+  min-height: 800px;
+}
+
+.menu__wrapper {
+  margin-bottom: 20px;
+}
+
+.titile__wrapper {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+  overflow-x: auto;
+}
+.modal_report__wrapper {
+  margin-bottom: 5px;
+  display: flex;
+
+  justify-content: space-between;
+
+  overflow-x: auto;
+}
+.title {
+  appearance: none;
+  padding: 20px;
+  color: black;
+  font-size: 22px;
+  font-weight: 300;
+  margin-right: 20px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+  option {
+    color: black;
+  }
+}
+.some_custom_class2 {
+  background-image: url('../../assets/img/air.jpg') !important;
+  transition: all 0.5s ease-in-out !important;
+}
+.some_custom_overlay_class2 {
+  transition: all 1s ease-in-out !important;
+}
+.discription_input {
+  background: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  color: #000;
+  padding: 8px 16px;
+  font-family: 'Nunito', sans-serif;
+  resize: none;
+  max-width: 400px;
+}
+.btn_pin {
+  padding: 10px 15px;
+  background: #43444a;
+  border: none;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(44, 44, 44, 0.68);
+  }
+}
+.btn_pin_close {
+  padding: 10px 15px;
+
+  background: rgba(219, 32, 32, 0.64);
+  border: none;
+  color: white;
+  text-transform: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(219, 32, 32, 0.26);
+  }
+}

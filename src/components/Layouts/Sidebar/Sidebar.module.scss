@@ -1,0 +1,82 @@
+$mini-phone: 320px;
+$phone: 480px;
+$table: 768px;
+$netbook: 1024px;
+$smalldisplay: 1280px;
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.menu__switcher__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.menu__switcher {
+  display: inline-block;
+  position: relative;
+  width: 33px;
+  height: 63px;
+  vertical-align: middle;
+  cursor: pointer;
+  overflow: hidden;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+  &:hover {
+    opacity: 1;
+  }
+}
+.hideIcon {
+  display: none;
+}
+.menu__switcher__lines {
+  display: block;
+  position: absolute;
+  background: #fff;
+  left: 50%;
+  width: 16px;
+  top: 31px;
+  right: 8px;
+  height: 2px;
+  transform: translate(-50%, 0);
+  &::after,
+  &::before {
+    background: #fff;
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    content: '';
+  }
+  &::before {
+    top: -5px;
+  }
+  &::after {
+    bottom: -5px;
+  }
+}
+
+.logo__wrapper {
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+  flex-grow: 1;
+  padding-left: 70px;
+
+  img {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: $table) {
+  .sidebar_wrapper {
+    display: none;
+  }
+}

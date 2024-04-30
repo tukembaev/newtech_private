@@ -1,0 +1,91 @@
+{
+  "name": "АРМИФ ЗАДАЧААА",
+  "attributes": {
+    "status": "Ждет выполнения с 13.04.2023  13:37",
+    "instructor": "Тукембаев Ариф "
+  },
+  "children": [
+    {
+      "name": "eqw",
+      "attributes": {
+        "status": "Ждет выполнения с 13.04.2023  16:12",
+        "instructor": "Сманов Мадияр "
+      },
+      "children": [
+        {
+          "name": "йцв",
+          "attributes": {
+            "status": "Ждет выполнения с 13.04.2023  16:12",
+            "instructor": "Тукембаев Ариф "
+          },
+          "children": []
+        },
+        {
+          "name": "йцв",
+          "attributes": {
+            "status": "Завершена",
+            "instructor": "Тукембаев Ариф "
+          },
+          "children": []
+        },
+        {
+          "name": "йцв",
+          "attributes": {
+            "status": "Отказано",
+            "instructor": "Тукембаев Ариф "
+          },
+          "children": []
+        },
+        {
+          "name": "йцв",
+          "attributes": {
+            "status": "Ждет выполнения с 13.04.2023  16:12",
+            "instructor": "Тукембаев Ариф "
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "йцу",
+      "attributes": {
+        "status": "Ждет выполнения с 13.04.2023  16:12",
+        "instructor": "Тукембаев Ариф "
+      },
+      "children": [
+        {
+          "name": "йцв",
+          "attributes": {
+            "status": "Ждет выполнения с 13.04.2023  16:12",
+            "instructor": "Тукембаев Ариф "
+          },
+          "children": []
+        },
+        {
+          "name": "йцв",
+          "attributes": {
+            "status": "Ждет выполнения с 13.04.2023  16:12",
+            "instructor": "Тукембаев Ариф "
+          },
+          "children": []
+        },
+        {
+          "name": "йцв",
+          "attributes": {
+            "status": "Ждет выполнения с 13.04.2023  16:12",
+            "instructor": "Тукембаев Ариф "
+          },
+          "children": []
+        },
+        {
+          "name": "йцв",
+          "attributes": {
+            "status": "Ждет выполнения с 13.04.2023  16:12",
+            "instructor": "Тукембаев Ариф "
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}

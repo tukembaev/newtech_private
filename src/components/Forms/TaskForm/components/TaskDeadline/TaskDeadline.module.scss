@@ -1,0 +1,51 @@
+$phone: 535px;
+
+.task_deadline {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.task_whitespace {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: white;
+  border-radius: 5px;
+  min-height: 23px;
+  border: none;
+  padding: 10px 10px 10px 10px;
+}
+.deadline_heading {
+  display: flex;
+
+  margin-top: 10px;
+  gap: 15px;
+  p {
+    padding-top: 10px;
+  }
+}
+.deadline_checkboxes {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  gap: 25px;
+
+  .checkbox {
+    display: flex;
+    gap: 15px;
+  }
+}
+.task_link {
+  margin-bottom: 10px;
+  padding-top: 10px;
+
+  color: #5e6675;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: $phone) {
+  .deadline_heading {
+    flex-direction: column;
+  }
+}

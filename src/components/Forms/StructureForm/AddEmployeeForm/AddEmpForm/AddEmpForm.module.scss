@@ -1,0 +1,54 @@
+.add_pos {
+  background-color: #bbed21;
+  color: #535c69;
+  text-transform: none;
+  font-weight: 300;
+  font-size: 14px;
+  border-radius: 3px;
+  transition: 0.3s;
+  height: 35px;
+  margin-top: 33px;
+  width: 180px;
+}
+
+.heading {
+  padding-bottom: 15px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.position_card {
+  padding: 10px;
+
+  overflow: auto;
+  backdrop-filter: blur(2px);
+  /* Note: backdrop-filter has minimal browser support */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 6px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.get_emp_position_wrapper {
+  padding-bottom: 35px;
+}
+.flex_col {
+  display: flex;
+  gap: 25px;
+}
+
+@media (max-width: 875px) {
+  .flex_col {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 875px) {
+  .position_card {
+    width: unset;
+  }
+}

@@ -1,0 +1,30 @@
+.upcoming_wrapper {
+  background: #ffffff;
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 18px;
+  width: 40%;
+}
+.event {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #2bc760;
+  gap: 100px;
+  p {
+    padding-top: 15px;
+  }
+}
+.event_color {
+  width: 42px;
+  height: 6px;
+
+  border-radius: 6px;
+  margin-top: 7px;
+}
+
+@media screen and (max-width: 1200px) {
+  .upcoming_wrapper {
+    width: 100%;
+  }
+}

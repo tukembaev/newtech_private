@@ -1,0 +1,27 @@
+$phone: 535px;
+
+.inline {
+  display: flex;
+  flex-direction: row;
+}
+.task_responsible {
+  display: inline-block;
+  width: 100%;
+
+  padding-bottom: 10px;
+  padding-top: 15px;
+  p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: $phone) {
+  .task_responsible {
+    flex-direction: column;
+    p {
+      text-align: center;
+    }
+  }
+}

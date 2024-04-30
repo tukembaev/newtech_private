@@ -1,0 +1,47 @@
+.profile_card_wrapper {
+  margin-top: 20px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  border-radius: 6px;
+  img {
+    min-width: 370px;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  h3 {
+    padding-top: 5px;
+  }
+  span {
+    padding-top: 5px;
+    display: inline-block;
+    color: #131212;
+    background-color: #e4e1e1;
+    padding: 0 4px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 9px;
+    border: none;
+  }
+  p {
+    padding-top: 5px;
+  }
+  .email {
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 996px) {
+  .profile_card_wrapper {
+    width: 100%;
+    img {
+      margin: 0 auto;
+      width: 250px;
+      border-radius: 50%;
+    }
+  }
+}
